@@ -1,0 +1,11 @@
+ls = klasör içindekileri listeler
+pwd = içinde bulunduğun klasörün adresini verir
+cd = klasör değiştirir
+cd .. = bir üst klasöre dön
+""cd Yeni\ klasör/"" \ boşluk yerine koyulur
+mkdir = klasör oluşturur
+touch xx.txt = xx.txt adında bir dosya oluşturur.
+rm xx.txt = xx.txt adındaki dosyayı siler
+rm -rf klasörAdı = klasör siler
+clear = ekrani temizler
+ls -la = gizli klasörleri gösterir

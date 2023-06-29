@@ -1,0 +1,12 @@
+commit = billi bir aşamaya gelmiş projenin kaydını almak.
+brach = commitlerden oluşan zincir içerinde farklı bir dal açarak projenin farklı kişilerce geliştirilmesine ve yeni özlleliklerin denenmesi için açılan dal.
+Master = ana branchin adıdır bazı yerlerde MAİN olarakta görülebilir.
+Dikkat et = gite tanımlanmış bir klasözrü tekrar gite tanımlama statısle kontrol et
+gitignore = public repoda olmasını istemediğin özel ve gereksiz dosyaları görmezden gelmesi için kullanılır. kullanmak için ilgili klasörde .gitignore adında bir dosya oluştur. daha sonra görmezden gelinecek dosyaların adları bu dosyaya yaz.
+head = head bulunduğumuz yeri gösterir.
+merge = brachleri birleştirmek için kullanılan komut
+fast forwart =masterdayken yeni bir branch açıp, branch üzerinde gliştirme yaparken masterda yeni bir commit yapılmadan feat ile merge edilirse bu fast forwart denir.
+merge conflict = merge edilecen brancler arasındaki uyuşmazlıktır. bir branchte olan bir dosyanın diğer branchte olmaması yada uygunolmayan şekilde değiştirilmesiyle uyumsuzluklar olabilir bu uyuşmazlıkla çazğlmesi gerekir. bu çözümler dosyaların silinmesi yada kaydedilip yeniden comitlenmesi olabilir. en güzel yol çakıştırmamaktır. bazı çazülmeyen durumlarda editörler seçenekler sunabilir. seçim yapıp sorunu çözebilirsin yada her şeyi silip yerine almasını istediğin şeyleri sen yazabilirsin. save ettikten sonra commit atarak çakışmayı çözebilirsin. 
+stash = başka bir branchta çalışırken commit etmeden başka bir branch'a geçmek karışıklara neden olur. bu durumlarda yapılan değişiklikleri geri alabilir yada stash yaparak bir önceki committe göre olan değişiklikleri başka bir ortama kaydedebilirsiniz. tekrar ana çalışma branchinize geri döndüğünüzde git stahs pop kullaranak kaydedilen değişiklikleri geri alabilirsiniz.
+
+rebase = rebase faet brancındeki commitleri master commitlerinin sonuna eklemektir  1 2 3 bizim master commitlerimiz olsun 9 8 7 ise bizim feat branchlerimiz olsun. rebase yaptığımızda  master commitleri 1 2 3 9 8 7 bu şekilde görünecektir. 3. master 7. feat branchinde olur.

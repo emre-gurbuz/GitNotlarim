@@ -1,0 +1,58 @@
+git config --global user.name "huseyin emre gürbüz" = kullanıcı adı ekleme "komutun açıklaması: git config = git ayarlarını değiştir. --global = her yerde geçerli olacak. user.name= user objesinin adını. "kullanıcı adı"= bu isim yap. "
+
+git config user.name = kullanıcıları listeler
+git config --global user.email email@email.com = kullanıcının email adresini değiştirir.
+
+git config user.email = kullanıcıların email adresleri listeler.
+
+git status = ilgili klasörün git durumu gösterir
+git init = ilgili dosyayı git'e bağlar
+
+git add dosya.txt = ilgili dosyayı stage"a koyar comite hazılar
+
+git commit -m "commit mesajı" = stagedeki dosyayı commitler. -m "" commit mesajidir mesaj zorunludur yazmadan commitlersen defoult editörden sana mesaj sorar.
+
+git log = ilgili dosyanın git logunu gösterir. commitler vs.
+
+git add . = tüm dosyaları stageye atar.
+git commit -a = stage'e atmadan comitler. -m ile mesaj yazabilirsin.
+
+git branch = branchleri listeler
+git branch feat = feat adında yeni bir branch oluşturur.
+
+git switch feat = feat adındaki branch'e geçiş yapar
+git merge feat= master branchteyken bu komut feat branchını masterla birleştirir
+
+git restore = bir branchten başka bir branch'e commit yapmadan geçersen dosyada bozulmalar meydana gelebilir bu durumda bu komutu kullanarak dosyanın bozulmadan önceki haline geri gelebilirsiniz gelinen branchteki bilgiler silinecektir.
+
+git stash = bir branchte yapılan değişiklikleri kaybetmeden başka bir branche geçmek istersen yada commit etmeden değişiklikleri saklamak istersen stashe atabilirsin
+
+git stash pop = stashe attıgın değişiklikleri geri getirir.
+
+git stash list= güncel saklanan değiğklikler listesi
+
+git stash apply stash@{0} = stash listesindeki değişiklikleri tek tek uygulamak için stash@{0} bu ifade uygulanacak liste elemanından alınacak.
+
+git stash apply = tek bir stash olursa stashı uygular ama stash listede kalmaya devam eder.
+
+git stash clear = stashleri siler 
+
+git checkout comit id= id si yazılan comite geri dönmek için kullanılır bu comitte iken sadece yeni bir branch açabilirsin.
+
+git reset commit ıd = commit ıd girilen committen sonraki commitleri siler ama değişiklikleri silmez.
+
+git reset --hard commit id = commit id si girilen committen sonraki commitleri içerikleriyle beraber siler. dikkat edilmesi gereken bir komuttur.
+
+git revert commit id = id si girilen commitin bir önceki commitini yeni bir commit atar örnek olarak 3 4 5 6 bizim commitlerimiz olsun 6. commiti revert edersek son durum 3 4 5 6 5 olacaktır. bu genelde geçmişe dönmek ve master üzerinden devam etmek istediğimizde kullanılır ama geçmiş commite döndüğümüzde commit silinmez.
+
+git diff =bu komut stage atılmamış dosyalar ile son committeki farkları gösterir addlenmemiş
+
+git diff head = bulunduğumuz dosyalar ile heatteki farkları
+
+git diff commitid1 commitıs2 = commitid1 ile commitid2 arasındaki farkları
+
+git diff master feat = master ile feat branchleri arasındaki farkları gösterir.
+
+git rebase master = kullanmak tehlikeli dikkat et re base yapılması log temizlemek içinde kullanılır notlarda detaylar var. 
+
+
