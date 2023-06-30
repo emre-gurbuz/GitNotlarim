@@ -55,4 +55,16 @@ git diff master feat = master ile feat branchleri arasındaki farkları gösteri
 
 git rebase master = kullanmak tehlikeli dikkat et re base yapılması log temizlemek içinde kullanılır notlarda detaylar var. 
 
+git remote add origin https://github.com/emre-gurbuz/gitTest.git= push yapılacak adresi origin adında tanımlar origini çağırdığında bu adresi kullanır
 
+git push -u origin master = origin aderesine masteri pushlar.
+
+git branch -r = remote branchleri listeler
+
+git fetch origin master = remotedaki değişiklikleri alır bu sayaede aradaki farkları görebilirsin statusla görebilirsin
+
+git pull origin master = fetch + merge  şeklinde çalışır değişiklikleri remotedan çeker yeni bir commit atar localdeki dosyalarıda değiştirir.
+
+git checkout origin/master = remote branchlere gitmek için 
+
+git clone repoURL = girilen urldeki prejeyi indirir.

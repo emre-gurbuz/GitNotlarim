@@ -1,0 +1,5 @@
+fork = başka bir repoyu kendi hesabımıza almak.
+
+pull request = başka birine ait olan repoda yapıtığın değişikliği repo sahibinin incelemesine gödermek
+
+Readme.md = read me dosyasının kendi syntaxi vardır google git md cheetsheet yazarak bulabilirsin portfolyç için lazım olabilir.
